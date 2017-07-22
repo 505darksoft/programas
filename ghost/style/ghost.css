@@ -1,0 +1,128 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#toptagcontainer {
+    width: 100%; 
+    height: 61px;
+    background-color: #282828; 
+    position: fixed; 
+    text-align: left;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+}
+#footer {
+    position: fixed;
+    background-color: #282828;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#centralcontainer {
+    background-color: #101010; 
+    height: 1000px;
+    width: 100%;
+    float: left;
+    margin-top: 61px;
+    position: relative;
+}
+#toptagleft {
+    float:left;
+    text-align: left;
+    width:auto;
+    height: 100%;
+    display: none;
+}
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+}
+
+#toptagright {
+    text-align: center;
+    display: grid;
+    height: 100%;
+    float:inherit;
+    width:auto;
+}
+img {
+    height:100%; 
+    width:auto
+}
+label.light {
+    font-family: 'Palanquin';
+    vertical-align: middle;
+    padding: 3px;
+    font-size:12px;
+    width: 100%;
+    color:#FBFBFB;
+}
+label.dark {
+    font-family: 'Palanquin';
+    padding: 3px;
+    font-size:12px;
+    width: 100%;
+    color:#97A09B;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #181818;
+} 
+::-webkit-scrollbar-thumb {
+    background-color: #404040;
+} 
+::-webkit-scrollbar-button {
+    background-color: black;
+} 
+::-webkit-scrollbar-corner {
+    background-color: #181818;
+} 
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 30px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+ul.images {
+    margin: auto;
+    padding: 5px;
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: #282828;
+}
+ul.images li {
+    display: inline;
+    width: 70px;
+    height: 70px;
+}
+ol {
+    background: #282828;
+    padding-right: 2px;
+    padding-left: 0px;
+}
+
+ol li {
+    background: #181818;
+    margin: 5px;
+    border-radius:2px;
+    color:#FBFBFB;
+    font-family:Verdana;
+    font-size:12px;
+    background-clip:padding-box;
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+}

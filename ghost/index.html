@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>ghost</title>
+		<meta charset="UTF-8" http-equiv="Content-Type" name="viewport" content="initial-scale=1, user-scalable=no">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="images/music-player.png"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="js/events.js"></script>
+        <script src="js/general.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Palanquin' rel='stylesheet'/>
+        <link rel="stylesheet" type="text/css"  href="style/ghost.css"/>
+	</head>
+
+	<body style="margin: 0; background-color: #121212; background-repeat:repeat; background-image:url(images/bg-pic.jpg); background-attachment:fixed; background-size: 400px 400px">
+        
+        
+        <div id="centralcontainer" >
+            <div style="height: 250px; text-align: center">
+                <img id="imgSongCoverTop" alt="Cover" src="images/default_album.png" />
+            </div>
+            
+        </div>
+        <div id="toptagcontainer">
+            <div id="toptagleft">
+                <img id="imgSongCoverTop" alt="Cover" src="images/default_album.png" />
+            </div>
+            <div id="toptagright">
+                <label id="lblSongTitle" class="light">Título Título Título Título Título Título Título</label>
+                <label id="lblSongArtist" class="dark">Artista Artista Artista Artista Artista Artista Artista</label>
+                <label id="lblSongAlbum" class="light">Álbum Álbum Álbum Álbum Álbum Álbum Álbum</label>
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                <label class="light">prev </label>
+                <label class="light">next</label>
+            </div>
+            <div>
+                <audio id="audio" controls autoplay="autoplay" style="width:100%">
+                </audio>
+            </div>
+        </div>
+	</body>
+</html>
